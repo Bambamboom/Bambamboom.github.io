@@ -1,0 +1,350 @@
+html {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Font code 
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+header {
+    display: flex;
+    width: 95%;
+    padding: 1% 2%;
+}
+
+.logo {
+    width: 50%;
+    border-right: 1px solid #686868;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+
+nav a {
+    padding: 1rem;
+    color: orange;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+nav a:hover {
+    color: #686868;
+    font-size: 1.25rem;
+}
+
+
+
+.container {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 2rem 0;
+}
+
+.banner-title {
+    font-size: 1.75rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 3rem auto 2rem auto;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-img {
+    max-width: 100%;
+    margin: auto;
+    max-height: 500px;
+}
+
+
+
+
+.services-container {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: 90%;
+}
+
+.service-tile {
+    background-color: #686868;
+    padding: 3rem;
+    text-align: center;
+    min-height: 300px;
+    min-width: 25%;
+    max-width: 30%;
+
+}
+
+.tile-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.tile-desc {
+    list-style-type: none;
+    padding-inline-start: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+ .concrete {
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url('../img/concrete.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+.split-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+
+#rec-work-container {
+    width: 45%;
+    min-height: 300px;
+}
+
+#about-container {
+    width: 45%;
+    min-height: 300px;
+}
+
+
+
+ .contact-container {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    width: 50%;
+    padding: 3rem;
+    border-right: 1px solid #949494;
+ }
+
+ .contact-items {
+    margin-left: .75rem;
+ }
+
+ .test-container {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 3rem 3rem 3rem;
+ }
+
+ .section-title {
+    margin-left: 2rem;
+ }
+
+ .test-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+ }
+
+ .test-desc {
+    margin-left: .5rem;
+ }
+
+ .test-quote {
+    font-style: italic;
+    font-weight: 200;
+ }
+
+.fb-container {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+
+
+
+ footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c4c4c4;
+    height: 4rem;
+    width: 100%;
+ }
+
+ #copyright {
+    margin-left: 2rem;
+    width: 50%;
+ }
+
+ #sec-nav {
+    margin-right: 1rem;
+    width: 50%;
+ }
+
+ #sec-nav-list {
+    align-content: center;
+    justify-content: flex-end;
+    display: flex;
+    list-style-type: none;
+ }
+
+ #sec-nav-list li {
+    padding: .5rem;
+ }
+
+ #sec-nav-list a {
+    text-decoration: none;
+    color: rgb(199, 129, 0);
+    font-weight: 800;
+ }
+
+ #sec-nav-list a:hover {
+    text-decoration: underline;
+ }
+
+
+
+
+
+ /* Slider CSS */
+ 
+.number-slide1 {
+    background-image: url(../img/bos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .number-slide2 {
+    background: rgb(255, 75, 64);
+    background: linear-gradient(
+      128deg,
+      rgba(255, 154, 63, 1) 0%,
+      rgba(255, 75, 64, 1) 100%
+    );
+  }
+  
+  .number-slide3 {
+    background: rgb(182, 255, 64);
+    background: linear-gradient(
+      128deg,
+      rgba(182, 255, 64, 1) 0%,
+      rgba(63, 255, 71, 1) 100%
+    );
+    background: linear-gradient(
+      128deg,
+      rgba(189, 255, 83, 1) 0%,
+      rgba(43, 250, 82, 1) 100%
+    );
+  }
+  
+  .number-slide4 {
+    background: rgb(64, 255, 242);
+    background: linear-gradient(
+      128deg,
+      rgba(64, 255, 242, 1) 0%,
+      rgba(63, 188, 255, 1) 100%
+    );
+  }
+  
+  .number-slide5 {
+    background: rgb(255, 64, 156);
+    background: linear-gradient(
+      128deg,
+      rgba(255, 64, 156, 1) 0%,
+      rgba(255, 63, 63, 1) 100%
+    );
+  }
+  .number-slide6 {
+    background: rgb(64, 76, 255);
+    background: linear-gradient(
+      128deg,
+      rgba(64, 76, 255, 1) 0%,
+      rgba(174, 63, 255, 1) 100%
+    );
+  }
+  
+  .navigation-wrapper {
+    position: relative;
+    height: 100%;
+  }
+  
+  .dots {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+  }
+  
+  .dot {
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #c5c5c5;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .dot:focus {
+    outline: none;
+  }
+  
+  .dot--active {
+    background: #000;
+  }
+  
+  .arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: #fff;
+    cursor: pointer;
+  }
+  
+  .arrow--left {
+    left: 5px;
+    fill: "#fff";
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3E%3Cpath d='M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z' %3E%3C/path%3E%3C/svg%3E");
+  }
+  
+  .arrow--right {
+    left: auto;
+    right: 5px;
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' %3E%3Cpath d='M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  
+  .arrow--disabled.arrow--left {
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 24 24' %3E%3Cpath d='M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z' %3E%3C/path%3E%3C/svg%3E");
+  }
+  
+  .arrow--disabled.arrow--right {
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 24 24' %3E%3Cpath d='M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  
