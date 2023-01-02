@@ -10,6 +10,10 @@ font-family: 'Source Sans Pro', sans-serif;
 
 */
 
+main {
+  margin: auto;
+}
+
 header {
     display: flex;
     width: 95%;
@@ -31,7 +35,7 @@ nav {
 
 
 nav a {
-    padding: 1rem;
+    padding: 2%;
     color: orange;
     text-decoration: none;
     font-size: 1.2rem;
@@ -40,6 +44,7 @@ nav a {
 
 nav a:hover {
     color: #686868;
+    text-decoration: underline;
     font-size: 1.25rem;
 }
 
@@ -51,6 +56,7 @@ nav a:hover {
     width: 100%;
     margin: 0 auto 0 auto;
     padding: 2rem 0;
+    max-height: 35%;
 }
 
 .banner-title {
@@ -75,24 +81,21 @@ nav a:hover {
     flex: 1 1 auto;
     width: 100%;
     margin: auto;
+    max-height: 35%;
 }
 
 .services {
     display: flex;
     flex-flow: row wrap;
-    flex: 1 1 auto;
     justify-content: center;
     width: 90%;
 }
 
 .service-tile {
-    background-color: #686868;
-    padding: 3rem;
+    padding: 0 3rem;
     text-align: center;
-    min-height: 300px;
-    min-width: 25%;
-    max-width: 30%;
-
+    width: 30%;
+    height: 300px;
 }
 
 .tile-title {
@@ -113,6 +116,12 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
  }
+ .ice-dam {
+  background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url('../img/steamy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -122,16 +131,17 @@ nav a:hover {
     flex: 1 1 auto;
     width: 95%;
     margin: 1rem auto;
+    max-height: 35%;
 }
 
 
 #rec-work-container {
-    width: 45%;
+    width: 48%;
     min-height: 300px;
 }
 
 #about-container {
-    width: 45%;
+    width: 48%;
     min-height: 300px;
 }
 
@@ -228,13 +238,48 @@ nav a:hover {
 
 
 
+
+
+
+
+
+
+
+/* Zoom Class */
+.zoom {
+  transform-origin: center;
+  transition: transform 0.3s; /* Adds a transition effect when the hover state is triggered */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* Scales the element up by 50% on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* Slider CSS */
  
 .number-slide1 {
     background-image: url(../img/bos.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 300px;
   }
   
@@ -348,3 +393,4 @@ nav a:hover {
     background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 24 24' %3E%3Cpath d='M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z'%3E%3C/path%3E%3C/svg%3E");
   }
   
+
