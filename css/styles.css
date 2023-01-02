@@ -1,3 +1,12 @@
+
+
+
+
+/* Responsive Media Queries */
+
+
+
+
 html {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -95,7 +104,12 @@ nav a:hover {
     padding: 0 3rem;
     text-align: center;
     width: 30%;
-    height: 300px;
+    height: 400px;
+}
+
+.service-tile a {
+  text-decoration: none;
+  color: #000;
 }
 
 .tile-title {
@@ -110,6 +124,7 @@ nav a:hover {
     font-size: 1.4rem;
     font-weight: 800;
 }
+
  .concrete {
     background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url('../img/concrete.jpg');
     background-position: center;
@@ -284,35 +299,27 @@ nav a:hover {
   }
   
   .number-slide2 {
-    background: rgb(255, 75, 64);
-    background: linear-gradient(
-      128deg,
-      rgba(255, 154, 63, 1) 0%,
-      rgba(255, 75, 64, 1) 100%
-    );
+    background-image: url(../img/driveway1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
   }
   
   .number-slide3 {
-    background: rgb(182, 255, 64);
-    background: linear-gradient(
-      128deg,
-      rgba(182, 255, 64, 1) 0%,
-      rgba(63, 255, 71, 1) 100%
-    );
-    background: linear-gradient(
-      128deg,
-      rgba(189, 255, 83, 1) 0%,
-      rgba(43, 250, 82, 1) 100%
-    );
+    background-image: url(../img/christmas-steam.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
   }
   
   .number-slide4 {
-    background: rgb(64, 255, 242);
-    background: linear-gradient(
-      128deg,
-      rgba(64, 255, 242, 1) 0%,
-      rgba(63, 188, 255, 1) 100%
-    );
+    background-image: url(../img/driveway2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
   }
   
   .number-slide5 {
